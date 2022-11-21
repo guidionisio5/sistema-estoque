@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+aside {
+    height: 100vh;
+    background-color: rgba(255, 140, 0, 0.829);
+}
+
+h3 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 15%;
+    display: grid;
+}
+
+li{
+    padding: 15px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font: 12px;
+    padding: 0;
+}
+
+a:hover{
+    padding: 5px;
+    background-color: white;
+    color: rgba(255, 140, 0, 0.829);
+    border-radius: 30px;
+}
+
+.corpo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    margin: 50px;
+    width: 500px;
+}
+
+.form-cadastro {
+    height: 80vh;
+    border: 1px;
+    margin: 70px auto;
+    display: grid;
+    align-items: center;
+    box-shadow: 2px 2px 1px 1px gray;
+    width: 80%;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+}
+
+.btn-confirmar{
+    width: 100px;
+    height: 40px;
+    color: azure;
+    background-color: rgba(255, 140, 0, 0.829);
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-confirmar:hover{
+    width: 100px;
+    height: 40px;
+    color: rgba(255, 140, 0, 0.829);
+    background-color: azure;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid;
+}
+
+/* listagem */
+
+#container{
+    display: grid;
+    align-items: center;
+    margin: 100px;
+    margin: auto 0;
+}
+
+.table{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.table th{
+    background-color: rgb(255, 140, 0);
+}
+
+.th{
+    color: white;
+}
+
+tr{
+    border: none;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+
+tr:nth-child(odd){
+    background-color: rgba(255, 201, 136, 0.829);
+}
+
+/* ================ modal =================== */
+
+#att-pro{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    
+}
+
+.input-modal input{
+    width: 200px; 
+}

@@ -24,7 +24,7 @@ const validaLogin = () => {
             })
 
 
-            result.retorno == 'ok' ? window.location.replace("http://localhost/sistema-de-estoque/paginaInicial.php") : ''
+            result.retorno == 'ok' ? window.location.replace("http://localhost/sistema-estoque/paginaInicial.php") : ''
 
         })
 
